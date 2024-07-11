@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
@@ -10,6 +9,9 @@ export default function Home() {
       <div>welcome</div>
       <Link href="/sample" className="hover:underline cursor-pointer">
         go to sample
+      </Link>
+      <Link href="/simple" className="hover:underline cursor-pointer">
+        go to simple
       </Link>
     </main>
   );
